@@ -11,5 +11,5 @@ module.exports = function (databaseDir, obj, callback) {
   });
   db.close(function (err) {
     callback(error || err);
-  })
+  });
 }
